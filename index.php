@@ -84,7 +84,6 @@
     var map = new google.maps.Map(document.getElementById('empty_room'),
         mapOptions);
 
-    mmarker.setPosition(rpi);
 
     //create markers
     for (var bdng in rooms) {
