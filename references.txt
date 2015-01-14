@@ -1,0 +1,2 @@
+http://www.dotnetbull.com/2013/06/multiple-marker-with-labels-in-google.html -- marker editing
+http://mapicons.nicolasmollet.com/ -- marker icons

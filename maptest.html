@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html { height: 100%; margin: 0; padding: 0;}
+      body { height: 100%; margin: 0; padding: 0;}
+      #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO4-uh2C2Cpon5LB7NTosT_lVl3mxAOu8">
+    </script>
+    <script type="text/javascript">
+      /*function initialize() {
+        var mapOptions = {
+          center: { lat: -34.397, lng: 150.644},
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);*/
+      
+
+var historicalOverlay;
+
+function initialize() {
+
+  var newark = new google.maps.LatLng(42.73, -73.68);
+  var imageBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(40.712216, -74.22655),
+      new google.maps.LatLng(40.773941, -74.12544));
+
+  var mapOptions = {
+    zoom: 17,
+    center: newark
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  /*historicalOverlay = new google.maps.GroundOverlay(
+      'https://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg',
+      imageBounds);*/
+  //historicalOverlay.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    </script>
+  </head>
+  <body>
+<div id="map-canvas"></div>
+  </body>
+</html>

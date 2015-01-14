@@ -1,0 +1,6 @@
+
+<HTML>
+<HEAD>
+<meta http-equiv="refresh" content="0;url=https://sis.rpi.edu/rss/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu&amp;msg=WELCOME+<b>Welcome,+Taoran+Li,+to+the+Rensselaer+Self-Service+Information+System!<%2Fb>Jan+09,+201507%3A13+pm">
+</HEAD>
+</HTML>

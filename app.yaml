@@ -1,0 +1,11 @@
+application: rpi-roomfinder
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /images
+  static_dir: images
+
+- url: /.*
+  script: index.php
