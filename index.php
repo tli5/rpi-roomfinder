@@ -5,8 +5,8 @@
   $hh = intval(date('G'));
   $mm = intval(date('i'));
   
-  //$eroom = new EmptyRoom($day, $hh, $mm);
-  $eroom = new EmptyRoom("thu", 11, 20);
+  $eroom = new EmptyRoom($day, $hh, $mm);
+  //$eroom = new EmptyRoom("thu", 11, 20);
   $rooms = $eroom->get_Available_Building_Names();
   $rooms_json = json_encode($rooms);
 
@@ -83,13 +83,6 @@
 
     var map = new google.maps.Map(document.getElementById('empty_room'),
         mapOptions);
-    
-    var mmarker = new google.maps.Marker({
-      position: new google.maps.LatLng(locs["SAGE"]["lat"], locs["SAGE"]["lng"]),
-      map: map,
-      title: "SAGE",
-      icon: rooms["SAGE"]["max"]["icon"],
-    });
 
     mmarker.setPosition(rpi);
 

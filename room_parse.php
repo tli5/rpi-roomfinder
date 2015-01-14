@@ -1,8 +1,11 @@
 <?php
 
+echo "fill id and pass info";
+exit;
+
 //create array of data to be posted
-$post_data['sid'] = '661409866';
-$post_data['PIN'] = 'Adsltr965';
+$post_data['sid'] = '***';
+$post_data['PIN'] = '***';
 $cookie_file_path = "./cookie.txt"; 
 
 
