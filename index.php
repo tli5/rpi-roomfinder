@@ -50,14 +50,6 @@
         box-shadow:none;
       }
       
-      /*.panel-default > .panel-heading {
-        background-color: red;
-      }*/
-
-      /*.panel-default > .panel-heading a {
-        color: green;
-        background-color: red;
-      }*/
     </style>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -363,8 +355,15 @@
               </address>
 
               <address>
+                <strong>Github Repository</strong><br>
+                <a href="https://github.com/tli5/rpi-roomfinder">rpi-roomfinder</a>
+                
+              </address>
+
+              <address>
                 <strong>Email Author</strong><br>
                 <a href="mailto:litr965@gmail.com">litr965@gmail.com</a>
+
               </address>
             </div>
           </div>
